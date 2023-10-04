@@ -2,4 +2,44 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: auto;
+  list-style: none;
+}
+
+.caja {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: gray;
+}
+
+.texto {
+  margin-left: 10px;
+}
+
+img {
+  max-width: 250px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.botones {
+  display: flex;
+  justify-content: flex-end;
+  border-radius: 5px;
+}
+
+.titulo {
+  display: flex;
+  justify-content: center;
+}
+
+.info {
+  background-color: rgb(17, 16, 17);
+}
+
+.boton2 {
+  border: none;
 }

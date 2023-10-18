@@ -20,7 +20,7 @@ export const AllCharacters = () => {
         <div className="botones">
           <button class="boton2">Docs</button>
           <button class="boton2">About</button>
-          <button>Support Us</button>
+          <button class="amarillo">SUPPORT US</button>
         </div>
         <div className="titulo">
           <h1>The Rick and Morty API</h1>
@@ -33,11 +33,11 @@ export const AllCharacters = () => {
               <div className="caja">
                 <img src={item.image} alt="" />
                 <div className="texto">
-                  <h3>{item.name}</h3>
-                  <p>{item.status}</p>
-                  <p>{item.species}</p>
-                  <h3>Last known location:</h3>
-                  <p>{item.location.name}</p>
+                  <h3 className="color">{item.name}</h3>
+                  <p className="blanco">{item.status}</p>
+                  <p className="blanco">{item.species}</p>
+                  <h3 className="color">Last known location:</h3>
+                  <p className="blanco">{item.location.name}</p>
                 </div>
               </div>
             </li>

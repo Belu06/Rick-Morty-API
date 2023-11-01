@@ -5,6 +5,7 @@ export function Footer() {
       <h3 className="gris">Locations:126</h3>
       <h3 className="gris">Episodes:51</h3>
       <h3 className="elemento">Server Status</h3>
+      <h3></h3>
     </div>
   );
 }

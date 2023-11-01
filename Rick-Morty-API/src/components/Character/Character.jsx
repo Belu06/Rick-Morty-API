@@ -36,8 +36,8 @@ export const AllCharacters = () => {
                   <h3 className="color">{item.name}</h3>
                   <p className="blanco">{item.status}</p>
                   <p className="blanco">{item.species}</p>
-                  <h3 className="color">Last known location:</h3>
-                  <p className="blanco">{item.location.name}</p>
+                  <h3 className="blanco">Last known location:</h3>
+                  <p className="color">{item.location.name}</p>
                 </div>
               </div>
             </li>
